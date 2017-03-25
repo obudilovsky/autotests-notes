@@ -11,16 +11,16 @@ General stack of technologies:
 - Java + WebDriver + JUnit + mvn
 
 Preconditions:
--	Installed IntelliJ IDEA Community Edition 2016.3.5
--	Installed apache-maven-3.3.9
--	Installed Google Chrome browser
--	Installed Java JDK 1.8
+- Installed IntelliJ IDEA Community Edition 2016.3.5
+- Installed apache-maven-3.3.9
+- Installed Google Chrome browser
+- Installed Java JDK 1.8
 - Installed nodejs (node-v6.10.1-x64.msi, link: https://nodejs.org/en/download/ )
--	Downloaded chromedriver.exe (Google Chrome Driver 2.28, link: http://www.seleniumhq.org/download/ )
+- Downloaded chromedriver.exe (Google Chrome Driver 2.28, link: http://www.seleniumhq.org/download/ )
 
 Instructions:
--	Open "autotests-notes" project in IntelliJ IDEA
--	Set corrected path to "webdriver.chrome.driver" in "systemPropertyVariables" of pom.xml
-- Execute "npm i" in terminal
+- Open "autotests-notes" project in IntelliJ IDEA
+- Set corrected path to "webdriver.chrome.driver" in "systemPropertyVariables" of pom.xml
+- Go to directory "notes-web-application/dist" and execute "npm i" in terminal
 - After all packages installed, execute "npm start" in terminal to run web application
--	Select "clean" and "test" lifecycles in Maven Projects panel and run Maven build
+- Select "clean" and "test" lifecycles in Maven Projects panel and run Maven build
