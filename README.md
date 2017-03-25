@@ -2,7 +2,7 @@
 Created automation tests using general stack of technologies: Java + WebDriver + JUnit + mvn
 
 Task:
-1. Create automation tests based on the requirements:
+- Create automation tests based on the requirements:
     - User should be able to log in, log out, change my account settings, add notes, delete notes.
     - User should be able to add an unlimited number of notes.
     - User should be able to add notes, only with a title, only with a description, but not empty.
