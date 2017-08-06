@@ -1,5 +1,5 @@
 # autotests-notes
-Created automation tests using general stack of technologies: Java + WebDriver + JUnit + mvn
+Created automated tests using general stack of technologies: Java + WebDriver + JUnit + mvn
 
 Task:
 - Create automated tests based on the requirements:
